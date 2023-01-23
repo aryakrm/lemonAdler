@@ -1,17 +1,24 @@
 .Card {
-  margin: 1rem;
+  margin: 2px;
   width: 100%;
+  .ant-image {
+    background-color: transparent;
+  }
+  .ant-image-mask {
+    background-color: transparent;
+  }
   .img {
     width: 100%;
     border: 0.5px solid #ffd400;
-    border-radius: 30px;
+    border-radius: 10px;
+    background-color: transparent !important;
   }
 }
 
 @media only screen and (min-width: 940px) {
   .Card {
-    margin: 1rem;
-    width: fit-content;
+    margin: 0.5rem;
+    width: 32%;
     .img {
       width: 100%;
       border: 0.5px solid #ffd400;

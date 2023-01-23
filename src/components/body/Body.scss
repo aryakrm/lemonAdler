@@ -1,7 +1,9 @@
 .Body {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  padding: 1.5rem;
   flex-wrap: wrap;
+}
+
+@media only screen and (min-width: 940px) {
 }

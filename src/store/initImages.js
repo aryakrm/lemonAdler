@@ -23,11 +23,6 @@ const imageData = [
   },
   {
     id: nanoid(),
-    src: "https://i.ibb.co/Jy1DD90/photo-2023-01-12-11-26-52.jpg",
-    alt: `image ${nanoid()}`,
-  },
-  {
-    id: nanoid(),
     src: "https://i.ibb.co/hysDc0y/03.jpg",
     alt: `image ${nanoid()}`,
   },
