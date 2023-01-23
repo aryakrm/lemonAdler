@@ -1,0 +1,20 @@
+.Card {
+  margin: 1rem;
+  width: 100%;
+  .img {
+    width: 100%;
+    border: 0.5px solid #ffd400;
+    border-radius: 30px;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .Card {
+    margin: 1rem;
+    width: fit-content;
+    .img {
+      width: 100%;
+      border: 0.5px solid #ffd400;
+    }
+  }
+}

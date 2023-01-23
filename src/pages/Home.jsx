@@ -1,9 +1,14 @@
+import Navbar from "../components/navBar/Navbar";
+import Body from "../components/body/Body";
 import "./Home.scss";
+import Slide from "../components/slide/Slide";
 
 function Home() {
   return (
     <div className="Home">
-      <h1>Hello LemonAdler</h1>
+      <Navbar />
+      <Slide />
+      <Body />
     </div>
   );
 }
