@@ -2,7 +2,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-
+  margin-bottom: 1rem;
   div {
     img {
       width: 100%;
@@ -12,15 +12,12 @@
 
 @media only screen and (min-width: 940px) {
   .Slide {
-    margin-top: 5px;
     width: 100%;
     justify-content: center;
     align-items: center;
     div {
       img {
-        border-radius: 15px;
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
       }
     }
   }

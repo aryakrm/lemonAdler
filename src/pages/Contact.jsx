@@ -66,8 +66,8 @@ function Contact() {
               {" "}
               <EmailIcon /> Email Addresses
             </h2>
-            <h2>info@lemonarchitect.com</h2>
-            <h2>business@lemonarchitect.com</h2>
+            <h2>info@lemonadler-9.com</h2>
+            <h2>business@lemonadler-9.com</h2>
           </div>
           <div className="adress">
             <h2 className="titles">

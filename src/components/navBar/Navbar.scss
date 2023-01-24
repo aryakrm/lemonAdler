@@ -1,5 +1,5 @@
 .Navbar {
-  box-shadow: 2px 2px #ffd400;
+  box-shadow: 0.5px 0.5px #999;
   position: sticky;
   top: 0;
   padding: 1.5rem 2rem;
@@ -11,6 +11,9 @@
   background-color: #222222;
   .logo {
     margin-left: auto;
+    img {
+      width: 20%;
+    }
   }
   .nav-menu {
     display: none;
@@ -32,28 +35,28 @@
     ._icon {
       font-size: 1.5rem;
       cursor: pointer;
-      color: white;
+      color: rgb(243, 243, 243);
     }
   }
   .side-menu {
-    background-color: white;
+    background-color: rgb(153, 153, 153, 0.72);
 
     position: absolute;
     top: 5rem;
     left: 0;
-    padding: 1rem 2rem;
+    padding: 0.8rem 1.7rem;
     border-radius: 15px;
     ul {
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
       list-style: none;
-      gap: 1rem;
+      gap: 0.5rem;
       li {
         a {
           text-decoration: none;
-          color: black;
+          color: rgb(243, 243, 243);
           font-weight: 800;
         }
       }
@@ -69,6 +72,7 @@
     }
     .nav-menu {
       display: flex;
+      margin-right: auto;
     }
     .hamburger {
       ._icon {

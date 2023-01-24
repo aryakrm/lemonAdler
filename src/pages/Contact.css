@@ -1,10 +1,10 @@
 .Contact {
   background: #222222;
-  color: white;
+  color: rgb(243, 243, 243);
 }
 
 h1 {
-  color: white;
+  color: rgb(243, 243, 243);
 }
 
 sub {
@@ -46,7 +46,7 @@ sub {
   justify-content: center;
   align-items: flex-start;
   width: fit-content;
-  border: 2px solid #ffd400;
+  border: 2px solid #999;
   border-radius: 1rem;
   padding: 1rem;
   gap: 1rem;
@@ -55,10 +55,10 @@ sub {
 .button {
   font-size: 1rem;
   padding: 1rem 2rem;
-  border: 2px solid #ffd400;
+  border: 2px solid #999;
   background-color: transparent;
   border-radius: 10rem;
-  color: white;
+  color: rgb(243, 243, 243);
   margin-top: 1rem;
   font-weight: 700;
   margin-left: 35%;
@@ -67,19 +67,19 @@ sub {
   color: #222222;
   cursor: pointer;
 
-  background-color: #ffd400;
+  background-color: #999;
 }
 
 .phone > a {
   text-decoration: none;
-  color: white;
+  color: rgb(243, 243, 243);
 }
 .phone > a:hover {
-  color: #ffd400;
+  color: #999;
 }
 
 .titles {
-  color: #ffd400;
+  color: #999;
   font-weight: 60000;
   font-size: 1.5rem;
 }
@@ -92,7 +92,7 @@ h4 {
   padding: 7px;
   font-size: 20px;
   border-width: 2px;
-  border-color: #ffd400;
+  border-color: #999;
   background-color: #ffffff;
   color: #000000;
   border-style: outset;

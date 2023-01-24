@@ -27,7 +27,12 @@ function Navbar() {
         )}
       </div>
       {active ? (
-        <div className="side-menu">
+        <motion.div
+          initial={{ y: -30, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ type: "spring", stiffness: 300 }}
+          className="side-menu"
+        >
           <ul className="side-menu-list">
             <li>
               <Link to={"/"}>Home</Link>
@@ -39,10 +44,13 @@ function Navbar() {
               <Link to={"/contact"}>Contact</Link>
             </li>
           </ul>
-        </div>
+        </motion.div>
       ) : null}
-      <div className="logo">Logo</div>
-
+      <Link to={"/"}>
+        <div className="logo">
+          <img src="https://i.ibb.co/SPkHDJJ/10.png" alt="LemonAdler-9 Logo" />
+        </div>
+      </Link>
       <ul className="nav-menu">
         <li>
           <Link to={"/"}>Home</Link>
