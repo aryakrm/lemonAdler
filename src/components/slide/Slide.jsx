@@ -2,6 +2,7 @@ import React from "react";
 import "./Slide.scss";
 import { motion } from "framer-motion";
 import { Carousel } from "antd";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 // import slideImages from "../../store/initSlide";
 
 function Slide() {
@@ -12,18 +13,18 @@ function Slide() {
       transition={{ type: "fade", duration: "2" }}
       className="Slide"
     >
-      <Carousel autoplay className="Slide">
+      <Carousel autoplay autoPlaySpeed={1000} className="Slide">
         <div>
-          <img src="/assets/4.jpg" alt="First Slide" />
+          <LazyLoadImage src="/assets/4.jpg" alt="First Slide" />
         </div>
         <div>
-          <img src="/assets/2.jpg" alt="Second Slide" />
+          <LazyLoadImage src="/assets/2.jpg" alt="Second Slide" />
         </div>
         <div>
-          <img src="/assets/3.jpg" alt="Third Slide" />
+          <LazyLoadImage src="/assets/3.jpg" alt="Third Slide" />
         </div>
         <div>
-          <img src="/assets/1.jpg" alt="Fourth Slide" />
+          <LazyLoadImage src="/assets/1.jpg" alt="Fourth Slide" />
         </div>
       </Carousel>
     </motion.div>
