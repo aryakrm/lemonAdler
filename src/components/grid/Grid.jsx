@@ -3,12 +3,11 @@ import "./Grid.scss";
 import Box from "@mui/material/Box";
 import Masonry from "@mui/lab/Masonry";
 import imageData from "../../store/initImages";
-import { Image } from "antd";
 
 export default function ImageMasonry() {
   return (
     <Box sx={{ width: 500, minHeight: 829 }}>
-      <Masonry columns={3} spacing={2} c>
+      <Masonry columns={3} spacing={1} c>
         {imageData.map(({ src, id }) => (
           <div key={id}>
             <img
