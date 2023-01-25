@@ -13,7 +13,7 @@ function Slide() {
       transition={{ type: "fade", duration: "2" }}
       className="Slide"
     >
-      <Carousel autoplay autoPlaySpeed={1000} className="Slide">
+      <Carousel autoplay className="Slide">
         <div>
           <LazyLoadImage src="/assets/4.jpg" alt="First Slide" />
         </div>
@@ -21,10 +21,10 @@ function Slide() {
           <LazyLoadImage src="/assets/2.jpg" alt="Second Slide" />
         </div>
         <div>
-          <LazyLoadImage src="/assets/3.jpg" alt="Third Slide" />
+          <img src="/assets/3.jpg" alt="Third Slide" />
         </div>
         <div>
-          <LazyLoadImage src="/assets/1.jpg" alt="Fourth Slide" />
+          <img src="/assets/1.jpg" alt="Fourth Slide" />
         </div>
       </Carousel>
     </motion.div>
