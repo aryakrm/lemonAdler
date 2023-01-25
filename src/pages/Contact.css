@@ -1,6 +1,7 @@
 .Contact {
   background: #222222;
   color: rgb(243, 243, 243);
+  font-family: "PT SERIF";
 }
 
 h1 {
@@ -38,6 +39,10 @@ sub {
   align-items: center;
   width: 50%;
   gap: 1rem;
+}
+
+.contact-form h4 {
+  text-align: center;
 }
 
 .form {
@@ -86,6 +91,9 @@ sub {
 h4 {
   font-size: 0.5rem;
   width: 20rem;
+}
+p {
+  font-family: "PT SERIF";
 }
 
 .input {

@@ -2,7 +2,7 @@ import React from "react";
 import "./Slide.scss";
 import { motion } from "framer-motion";
 import { Carousel } from "antd";
-import slideImages from "../../store/initSlide";
+// import slideImages from "../../store/initSlide";
 
 function Slide() {
   return (
@@ -14,16 +14,16 @@ function Slide() {
     >
       <Carousel autoplay className="Slide">
         <div>
-          <img src={slideImages[0].src} alt="First Slide" />
+          <img src="/assets/4.jpg" alt="First Slide" />
         </div>
         <div>
-          <img src={slideImages[1].src} alt="Second Slide" />
+          <img src="/assets/2.jpg" alt="Second Slide" />
         </div>
         <div>
-          <img src={slideImages[2].src} alt="Third Slide" />
+          <img src="/assets/3.jpg" alt="Third Slide" />
         </div>
         <div>
-          <img src={slideImages[3].src} alt="Fourth Slide" />
+          <img src="/assets/1.jpg" alt="Fourth Slide" />
         </div>
       </Carousel>
     </motion.div>
@@ -31,3 +31,16 @@ function Slide() {
 }
 
 export default Slide;
+
+// <div>
+// <img src={slideImages[0].src} alt="First Slide" />
+// </div>
+// <div>
+// <img src={slideImages[1].src} alt="Second Slide" />
+// </div>
+// <div>
+// <img src={slideImages[2].src} alt="Third Slide" />
+// </div>
+// <div>
+// <img src={slideImages[3].src} alt="Fourth Slide" />
+// </div>

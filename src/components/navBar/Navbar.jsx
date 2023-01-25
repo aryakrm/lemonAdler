@@ -16,7 +16,7 @@ function Navbar() {
     <motion.div
       initial={{ x: "-100vh" }}
       animate={{ x: 0 }}
-      transition={{ type: "spring", stiffness: 120 }}
+      transition={{ type: "spring", stiffness: 50 }}
       className="Navbar"
     >
       <div onClick={menuTogglerHandler} className="hamburger">
@@ -48,7 +48,7 @@ function Navbar() {
       ) : null}
       <Link to={"/"}>
         <div className="logo">
-          <img src="https://i.ibb.co/SPkHDJJ/10.png" alt="LemonAdler-9 Logo" />
+          <img src="https://i.ibb.co/H7DtFmb/1.png" alt="LemonAdler-9 Logo" />
         </div>
       </Link>
       <ul className="nav-menu">

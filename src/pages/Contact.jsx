@@ -53,12 +53,11 @@ function Contact() {
             </sub>
             <a href="https://wa.me/905340367033" target="_blank">
               <h2>+90 534 036 70 33</h2>
+              <p>Sultan Gokçe - CEO and Founder of LemonAdler</p>
             </a>
             <a href="https://wa.me/905550644012" target="_blank">
               <h2>+90 555 064 40 12</h2>
-            </a>
-            <a href="https://wa.me/905059957893" target="_blank">
-              <h2>+90 505 995 78 93</h2>
+              <p>Ali Rabiei - Partner and Senior Designer</p>
             </a>
           </div>
           <div className="emails">
@@ -81,12 +80,13 @@ function Contact() {
           </div>
         </div>
         <div className="contact-form">
-          <h4 className="titles">We will call you back :)</h4>
+          <h4 className="titles">We'll call you back.</h4>
           <Form ref={form} className="form" onSubmit={sendEmail}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control
                 className="input"
                 type="text"
+                autoComplete="off"
                 placeholder="Enter Your Full Name"
                 name="user_name"
               />
@@ -103,6 +103,7 @@ function Contact() {
               <Form.Control
                 className="input"
                 type="email"
+                autoComplete="off"
                 placeholder="Enter email"
                 name="user_email"
               />
@@ -111,6 +112,7 @@ function Contact() {
               <Form.Control
                 className="input"
                 type="text"
+                autoComplete="off"
                 placeholder="Subject"
                 name="user_subject"
               />

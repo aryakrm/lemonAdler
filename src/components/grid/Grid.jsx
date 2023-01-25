@@ -3,6 +3,7 @@ import "./Grid.scss";
 import Box from "@mui/material/Box";
 import Masonry from "@mui/lab/Masonry";
 import imageData from "../../store/initImages";
+import { Image } from "antd";
 
 export default function ImageMasonry() {
   return (

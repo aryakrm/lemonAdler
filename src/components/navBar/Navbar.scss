@@ -10,9 +10,8 @@
   width: 100%;
   background-color: #222222;
   .logo {
-    margin-left: auto;
     img {
-      width: 20%;
+      width: 6rem;
     }
   }
   .nav-menu {
@@ -32,6 +31,7 @@
     }
   }
   .hamburger {
+    margin-right: auto;
     ._icon {
       font-size: 1.5rem;
       cursor: pointer;
@@ -67,14 +67,17 @@
 @media only screen and (min-width: 940px) {
   .Navbar {
     padding: 1.5% 3%;
+
     .logo {
       margin-left: 0;
     }
     .nav-menu {
+      text-align: center;
       display: flex;
       margin-right: auto;
     }
     .hamburger {
+      display: none;
       ._icon {
         display: none;
       }
