@@ -15,7 +15,7 @@ function Slide() {
     >
       <Carousel autoplay className="Slide">
         <div>
-          <LazyLoadImage src="/assets/6.jpg" alt="F Slide" />
+          <LazyLoadImage src="/assets/5.jpg" alt="F Slide" />
         </div>
         <div>
           <img src="/assets/4.jpg" alt="First Slide" />
