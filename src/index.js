@@ -2,6 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
+
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
 import About from "./pages/About";
 import Contact from "./pages/Contact";

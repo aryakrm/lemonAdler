@@ -2,9 +2,9 @@ import { useEffect } from "react";
 import Navbar from "../components/navBar/Navbar";
 import Body from "../components/body/Body";
 import "./Home.scss";
-import Slide from "../components/slide/Slide";
 import Chatbot from "../components/chatbot/Chatbot";
 import { Crisp } from "crisp-sdk-web";
+import Intro from "../components/intro/Intro";
 
 function Home() {
   useEffect(() => {
@@ -13,7 +13,7 @@ function Home() {
   return (
     <div className="Home">
       <Navbar />
-      <Slide />
+      <Intro />
       <Body />
       <Chatbot />
     </div>

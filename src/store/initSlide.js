@@ -1,16 +1,24 @@
-// const slideImages = [
-//   {
-//     src: "https://i.ibb.co/dpyKnL6/07.jpg",
-//   },
-//   {
-//     src: "https://i.ibb.co/Q6vjXNJ/014.jpg",
-//   },
-//   {
-//     src: "https://i.ibb.co/Z1X3svY/017.jpg",
-//   },
-//   {
-//     src: "https://i.ibb.co/QYvbQX3/021.jpg",
-//   },
-// ];
+const slideImages = [
+  {
+    id: 1,
+    src: "/assets/5.jpg",
+  },
+  {
+    id: 2,
+    src: "/assets/1.jpg",
+  },
+  {
+    id: 3,
+    src: "/assets/2.jpg",
+  },
+  {
+    id: 4,
+    src: "/assets/3.jpg",
+  },
+  {
+    id: 5,
+    src: "/assets/4.jpg",
+  },
+];
 
-// export default slideImages;
+export default slideImages;
