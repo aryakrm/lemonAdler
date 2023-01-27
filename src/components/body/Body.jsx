@@ -4,6 +4,7 @@ import "./Body.scss";
 import imageData from "../../store/initImages";
 import { motion } from "framer-motion";
 import Grid from "../grid/Grid";
+import Footer from "../footer/Footer";
 
 function Body() {
   const [matches, setMatches] = useState(
@@ -26,6 +27,7 @@ function Body() {
         imageData.map(({ id, src, alt }) => {
           return <Card key={id} src={src} alt={alt} />;
         })}
+      <Footer />
     </motion.div>
   );
 }

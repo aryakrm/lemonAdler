@@ -1,4 +1,44 @@
-.carousel-item {
-  position: relative;
-  z-index: -2;
+.carousel-wrapper {
+  width: 100%;
+
+  .carousel-item {
+    position: relative;
+    z-index: -2;
+  }
+}
+.controllers {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 10rem;
+  gap: 5rem;
+  z-index: 10;
+  padding: 0 3rem;
+  button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    opacity: 0.5;
+    svg {
+      font-size: 2rem;
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  .controllers {
+    top: 55%;
+    button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      svg {
+        font-size: 3rem;
+      }
+    }
+  }
 }

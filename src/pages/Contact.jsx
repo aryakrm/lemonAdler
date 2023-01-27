@@ -8,6 +8,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import "./Contact.css";
+import Footer from "../components/footer/Footer";
 
 function Contact() {
   const form = useRef();
@@ -131,6 +132,7 @@ function Contact() {
           </Form>
         </div>
       </motion.div>
+      <Footer />
     </div>
   );
 }
