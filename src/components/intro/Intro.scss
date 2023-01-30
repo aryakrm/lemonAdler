@@ -1,6 +1,8 @@
-.carousel-wrapper {
+.Carousel-wrapper {
   width: 100%;
 
+  margin-top: 4.2rem;
+  margin-bottom: 0.2rem;
   .carousel-item {
     position: relative;
     z-index: -2;
@@ -30,6 +32,9 @@
 }
 
 @media only screen and (min-width: 940px) {
+  .Carousel-wrapper {
+    margin-top: 0;
+  }
   .controllers {
     top: 55%;
     button {
