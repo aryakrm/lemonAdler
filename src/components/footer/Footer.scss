@@ -28,14 +28,12 @@
       a {
         &:nth-of-type(3) {
           svg {
-            font-size: 1.7rem !important;
-            margin-top: -2px;
+            font-size: 1.4rem !important;
           }
         }
         &:nth-of-type(5) {
           svg {
-            font-size: 1.7rem !important;
-            margin-top: -2px;
+            font-size: 1.4rem !important;
           }
         }
         svg {
@@ -76,6 +74,18 @@
         display: flex;
         gap: 1rem;
         a {
+          &:nth-of-type(3) {
+            svg {
+              font-size: 1.7rem !important;
+              margin-top: -2px;
+            }
+          }
+          &:nth-of-type(5) {
+            svg {
+              font-size: 1.7rem !important;
+              margin-top: -2px;
+            }
+          }
           svg {
             font-size: 1.5rem;
             fill: #999;

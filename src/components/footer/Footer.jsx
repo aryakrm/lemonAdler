@@ -17,19 +17,19 @@ function Footer() {
           <img src="https://i.ibb.co/H7DtFmb/1.png" alt="LemonAdler-9 Logo" />
         </div>
         <div className="socialMedia">
-          <a href="https://www.instagram.com/lemonadler9">
+          <a target="_blank" href="https://www.instagram.com/lemonadler9">
             <ImInstagram />
           </a>
-          <a href="">
+          <a target="_blank" href="">
             <ImLinkedin />
           </a>
-          <a href="">
+          <a target="_blank" href="https://wa.me/905340367033">
             <FaWhatsappSquare />
           </a>
-          <a href="">
+          <a target="_blank" href="https://www.behance.net/lemonadler-9">
             <ImBehance2 />
           </a>
-          <a href="">
+          <a target="_blank" href="https://twitter.com/Lemonadler9">
             <FaTwitterSquare />
           </a>
         </div>
