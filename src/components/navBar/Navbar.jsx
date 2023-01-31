@@ -32,6 +32,10 @@ function Navbar() {
     let loc = "/";
     window.location.replace(loc + "?lng=fr");
   }
+  function selectAr() {
+    let loc = "/";
+    window.location.replace(loc + "?lng=ar");
+  }
   function selectTr() {
     let loc = "/";
     window.location.replace(loc + "?lng=tr");
@@ -118,6 +122,7 @@ function Navbar() {
         <span onClick={selectDe} className="fi fi-de"></span>
         <span onClick={selectEs} className="fi fi-es"></span>
         <span onClick={selectFr} className="fi fi-fr"></span>
+        <span onClick={selectAr} className="fi fi-sa"></span>
         <span onClick={selectTr} className="fi fi-tr"></span>
       </div>
       <ul className="nav-menu">
