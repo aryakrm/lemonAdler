@@ -5,7 +5,7 @@
   height: 100vh;
   color: white;
   -webkit-animation: colorSlide 15s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
-          animation: colorSlide 15s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+  animation: colorSlide 15s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
 }
 .flex-container .text-center {
   text-align: center;
@@ -21,7 +21,7 @@
 .flex-container .text-center h1 .fade-in,
 .flex-container .text-center h3 .fade-in {
   -webkit-animation: fadeIn 2s ease infinite;
-          animation: fadeIn 2s ease infinite;
+  animation: fadeIn 2s ease infinite;
 }
 .flex-container .text-center h1 {
   font-size: 8em;
@@ -30,15 +30,15 @@
 }
 .flex-container .text-center h1 span#digit1 {
   -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
+  animation-delay: 200ms;
 }
 .flex-container .text-center h1 span#digit2 {
   -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
+  animation-delay: 300ms;
 }
 .flex-container .text-center h1 span#digit3 {
   -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
+  animation-delay: 400ms;
 }
 .flex-container .text-center button {
   border: 1px solid white;
@@ -108,4 +108,4 @@
   100% {
     opacity: 1;
   }
-}/*# sourceMappingURL=Error404.css.map */
+} /*# sourceMappingURL=Error404.css.map */
