@@ -9,6 +9,7 @@ import "./index.css";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
+import Loading from "./pages/Loading.jsx";
 
 const AppRoutes = [
   {
@@ -30,7 +31,7 @@ const routers = createBrowserRouter(AppRoutes);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Suspense fallback="...loading">
+    <Suspense fallback=<Loading />>
       <RouterProvider router={routers}></RouterProvider>
     </Suspense>
   </React.StrictMode>
