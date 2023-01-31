@@ -83,13 +83,13 @@ function Navbar() {
         >
           <ul className="side-menu-list">
             <li>
-              <Link to={"/"}>Home</Link>
+              <Link to={"/"}>{t("home")}</Link>
             </li>
             <li>
-              <Link to={"/about"}>About us</Link>
+              <Link to={"/about"}>{t("about")}</Link>
             </li>
             <li>
-              <Link to={"/contact"}>Contact</Link>
+              <Link to={"/contact"}>{t("contact")}</Link>
             </li>
           </ul>
         </motion.div>
