@@ -5,7 +5,6 @@ import "./Home.scss";
 import Chatbot from "../components/chatbot/Chatbot";
 import { Crisp } from "crisp-sdk-web";
 import Intro from "../components/intro/Intro";
-import Footer from "../components/footer/Footer";
 
 function Home() {
   useEffect(() => {

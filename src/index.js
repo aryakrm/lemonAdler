@@ -10,11 +10,16 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Loading from "./pages/Loading.jsx";
+import Error404 from "./pages/Error404.jsx";
 
 const AppRoutes = [
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "*",
+    element: <Error404 />,
   },
   {
     path: "/contact",
