@@ -5,11 +5,11 @@
   padding: 0.75rem 2rem;
   z-index: 150;
   display: flex;
-
   align-items: center;
   width: 100%;
   background-color: #222222;
   justify-content: center;
+  font-family: "PT SERIF", "sans-serif";
   .logo {
     img {
       width: 6rem;
@@ -64,19 +64,37 @@
       }
     }
   }
+  .flags {
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    display: none;
+    span {
+      &:hover {
+        cursor: pointer;
+        opacity: 0.6;
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 940px) {
   .Navbar {
     padding: 0.75rem 3%;
-
+    justify-content: space-between;
+    .flags {
+      display: flex;
+      margin-left: 35%;
+    }
+    .side-menu {
+      display: none;
+    }
     .logo {
       margin-left: 0;
     }
     .nav-menu {
       text-align: center;
       display: flex;
-      margin-right: auto;
     }
     .hamburger {
       display: none;

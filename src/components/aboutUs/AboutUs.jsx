@@ -1,8 +1,11 @@
 import React from "react";
 import "./AboutUs.scss";
 import { motion } from "framer-motion";
+// import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 function AboutUs() {
+  const { t } = useTranslation();
   return (
     <div className="AboutUs">
       <motion.div
@@ -11,17 +14,8 @@ function AboutUs() {
         transition={{ type: "spring", stiffness: 120 }}
         className="about-left"
       >
-        <h1>Who are We?</h1>
-        <p>
-          LemonAdler Architecture is a premier provider of innovative and
-          functional design solutions for buildings, interiors, and other
-          structures. Our team of experienced architects and designers use the
-          latest technology and software to create detailed plans, renderings,
-          and animations that bring our clients' visions to life. We specialize
-          in sustainable design, urban planning, and heritage conservation,
-          ensuring that our projects not only meet the needs of our clients but
-          also have a positive impact on the environment and community.
-        </p>
+        <h1>{t("who_are_we")}</h1>
+        <p>{t("about_desc")}</p>
         <img
           className="logo"
           src="https://i.ibb.co/H7DtFmb/1.png"

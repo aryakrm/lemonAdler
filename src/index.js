@@ -1,7 +1,8 @@
-import React from "react";
+import React, { Suspense } from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter } from "react-router-dom";
 import { RouterProvider } from "react-router-dom";
+import "./i18n.js";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./index.css";
@@ -29,6 +30,8 @@ const routers = createBrowserRouter(AppRoutes);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={routers}></RouterProvider>
+    <Suspense fallback="...loading">
+      <RouterProvider router={routers}></RouterProvider>
+    </Suspense>
   </React.StrictMode>
 );

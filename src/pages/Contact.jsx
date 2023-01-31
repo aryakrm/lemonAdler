@@ -9,8 +9,13 @@ import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 import "./Contact.css";
 import Footer from "../components/footer/Footer";
+// import { t } from "i18next";
+import { useTranslation } from "react-i18next";
 
 function Contact() {
+  // It is a hook imported from 'react-i18next'
+  const { t } = useTranslation();
+
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -42,15 +47,14 @@ function Contact() {
         className="contact-wrapper"
       >
         <div className="info">
-          <h1>Contacts</h1>
+          <h1>{t("contact")}</h1>
           <div className="phone">
             <h2 className="titles">
               {" "}
-              <LocalPhoneIcon /> Phone Numbers
+              <LocalPhoneIcon /> {t("phone_numbers")}
             </h2>
             <sub>
-              <WhatsAppIcon className="wpIcon" /> You can message on Whatsapp
-              direcktly by clicking on numbers
+              <WhatsAppIcon className="wpIcon" /> {t("wp_sub")}
             </sub>
             <a href="https://wa.me/905340367033" target="_blank">
               <h2>+90 534 036 70 33</h2>
@@ -64,7 +68,7 @@ function Contact() {
           <div className="emails">
             <h2 className="titles">
               {" "}
-              <EmailIcon /> Email Addresses
+              <EmailIcon /> {t("email_addresses")}
             </h2>
             <h2>info@lemonadler-9.com</h2>
             <h2>business@lemonadler-9.com</h2>
@@ -72,7 +76,7 @@ function Contact() {
           <div className="adress">
             <h2 className="titles">
               {" "}
-              <LocationOnIcon /> Address
+              <LocationOnIcon /> {t("address")}
             </h2>
             <h5>
               Plaza İş ve Yaşam Merkezi, Mustafa Kemal Mh. <br />
@@ -81,14 +85,14 @@ function Contact() {
           </div>
         </div>
         <div className="contact-form">
-          <h4 className="titles">We'll call you back.</h4>
+          <h4 className="titles">{t("form_title")}</h4>
           <Form ref={form} className="form" onSubmit={sendEmail}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
               <Form.Control
                 className="input"
                 type="text"
                 autoComplete="off"
-                placeholder="Enter Your Full Name"
+                placeholder={t("form_name")}
                 name="user_name"
               />
             </Form.Group>
@@ -96,7 +100,7 @@ function Contact() {
               <Form.Control
                 className="input"
                 type="number"
-                placeholder="Your Phone Number"
+                placeholder={t("form_number")}
                 name="user_number"
               />
             </Form.Group>
@@ -105,7 +109,7 @@ function Contact() {
                 className="input"
                 type="email"
                 autoComplete="off"
-                placeholder="Enter email"
+                placeholder={t("form_email")}
                 name="user_email"
               />
             </Form.Group>
@@ -114,7 +118,7 @@ function Contact() {
                 className="input"
                 type="text"
                 autoComplete="off"
-                placeholder="Subject"
+                placeholder={t("form_subject")}
                 name="user_subject"
               />
             </Form.Group>
@@ -122,12 +126,12 @@ function Contact() {
               className="input"
               name="user_message"
               id="message"
-              placeholder="How can we help you?"
+              placeholder={t("form_textarea")}
               cols="30"
               rows="5"
             ></textarea>
             <button className="button" type="submit">
-              Submit
+              {t("form_submit")}
             </button>
           </Form>
         </div>
