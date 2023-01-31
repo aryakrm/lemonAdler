@@ -70,12 +70,13 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(153, 153, 153, 0.5);
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 1rem;
-    gap: 0.8rem;
+    gap: 0.5rem;
     order: -1;
-    margin-right: 8%;
+    margin-right: 10%;
     span {
+      width: 1rem;
       &:hover {
         cursor: pointer;
         opacity: 0.6;
@@ -92,6 +93,13 @@
       display: flex;
       margin-left: 35vw;
       order: 2;
+      padding: 1rem;
+      border-radius: 1rem;
+      gap: 0.8rem;
+      margin-right: 8%;
+      span {
+        width: 1.5rem;
+      }
     }
     .side-menu {
       display: none;
