@@ -84,7 +84,10 @@
     justify-content: space-between;
     .flags {
       display: flex;
-      margin-left: 35%;
+      margin-left: 40%;
+      background-color: rgba(153, 153, 153, 0.5);
+      padding: 1rem;
+      border-radius: 1rem;
     }
     .side-menu {
       display: none;
