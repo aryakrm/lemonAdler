@@ -3,6 +3,53 @@ import { nanoid } from "nanoid";
 const imageData = [
   {
     id: nanoid(),
+    src: "/assets/ext1.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext2.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext3.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext4.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext5.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext6.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext7.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext8.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/ext9.jpeg",
+    alt: `image ${nanoid()}`,
+  },
+
+  //---------------------------------------------------------------------------------------------------------------------------
+  {
+    id: nanoid(),
     src: "https://i.ibb.co/vQ2xM3c/photo-2023-01-12-11-26-52.jpg",
     alt: `image ${nanoid()}`,
   },
@@ -303,7 +350,7 @@ const imageData = [
     src: "https://i.ibb.co/GQBmgS4/photo-2023-01-12-11-28-55.jpg",
     alt: `image ${nanoid()}`,
   },
-  //---------------------------------------------------------------------------------
+
   {
     id: nanoid(),
     src: "https://i.ibb.co/TwZcL5q/photo-2023-01-12-11-28-56.jpg",
