@@ -3,6 +3,72 @@ import { nanoid } from "nanoid";
 const imageData = [
   {
     id: nanoid(),
+    src: "/assets/extt1.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt2.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt3.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt4.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt5.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt6.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt7.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt8.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt9.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt10.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt11.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt12.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  {
+    id: nanoid(),
+    src: "/assets/extt13.jpg",
+    alt: `image ${nanoid()}`,
+  },
+  //------------------------------------------------------------------------------------------------
+  {
+    id: nanoid(),
     src: "/assets/ext1.jpeg",
     alt: `image ${nanoid()}`,
   },

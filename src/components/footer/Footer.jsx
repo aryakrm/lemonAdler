@@ -20,7 +20,10 @@ function Footer() {
           <a target="_blank" href="https://www.instagram.com/lemonadler9">
             <ImInstagram />
           </a>
-          <a target="_blank" href="">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/company/lemonadler-9/"
+          >
             <ImLinkedin />
           </a>
           <a target="_blank" href="https://wa.me/905340367033">
