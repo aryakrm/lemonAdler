@@ -79,8 +79,8 @@ function Contact() {
               <LocationOnIcon /> {t("address")}
             </h2>
             <h5>
-              Plaza İş ve Yaşam Merkezi, Mustafa Kemal Mh. <br />
-              Tepe Prime No: 266 Daire:18, Çankaya, Ankara, Turkey
+              Yukarı Dudullu, Şerifali Mah. Tavukçuyolu cad. <br />
+              No: 266, Ümraniye, İstanbul, Turkey
             </h5>
           </div>
         </div>
