@@ -77,6 +77,7 @@ function Intro() {
           />
         </Carousel.Item>
       </Carousel>
+      <div class="mouse"></div>
     </div>
   );
 }
