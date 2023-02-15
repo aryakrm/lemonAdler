@@ -3,6 +3,7 @@
   color: rgb(243, 243, 243);
   font-family: "PT SERIF";
   width: 100%;
+  overflow: hidden;
 }
 
 h1 {
