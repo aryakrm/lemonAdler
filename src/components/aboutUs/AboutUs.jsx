@@ -15,7 +15,7 @@ function AboutUs() {
         className="about-left"
       >
         <h1>{t("who_are_we")}</h1>
-        <p>{t("about_desc")}</p>
+        <p>Lemonadler-9 {t("about_desc")}</p>
         <img
           className="logo"
           src="https://i.ibb.co/H7DtFmb/1.png"
